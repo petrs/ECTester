@@ -99,7 +99,7 @@ public abstract class ProviderECLibrary implements ECLibrary {
 
     @Override
     public String name() {
-        return provider.getInfo();
+        return provider.getName();
     }
 
     public Provider getProvider() {

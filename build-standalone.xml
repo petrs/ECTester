@@ -136,6 +136,7 @@
     <target name="headers" depends="compile">
         <javah classpath="${build.classes.dir}" outputfile="src/cz/crcs/ectester/standalone/libs/jni/native.h">
             <class name="cz.crcs.ectester.standalone.libs.NativeECLibrary"/>
+            <class name="cz.crcs.ectester.standalone.libs.ECCelerateLib"/>
             <class name="cz.crcs.ectester.standalone.libs.TomcryptLib"/>
             <class name="cz.crcs.ectester.standalone.libs.jni.NativeProvider$TomCrypt"/>
             <class name="cz.crcs.ectester.standalone.libs.jni.NativeKeyPairGeneratorSpi$TomCrypt"/>

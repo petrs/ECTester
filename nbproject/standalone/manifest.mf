@@ -1,4 +1,4 @@
 Manifest-Version: 1.0
-Class-Path: lib/bcprov-jdk15on-1.58.jar lib/wolfcrypt-jni.jar lib/jcardsim-3.0.4-SNAPSHOT.jar lib/commons-cli-1.4.jar lib/snakeyaml-1.19.jar
+Class-Path: lib/bcprov-jdk15on-1.58.jar lib/wolfcrypt-jni.jar lib/jcardsim-3.0.4-SNAPSHOT.jar lib/commons-cli-1.4.jar lib/snakeyaml-1.19.jar lib/iaik_jce.jar lib/iaik_eccelerate.jar
 Main-Class: cz.crcs.ectester.standalone.ECTesterStandalone
 

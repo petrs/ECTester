@@ -45,4 +45,16 @@
         <field>prime</field>
         <file>prime256v1.csv</file>
     </curve>
+     <curve>
+        <id>c2tnb239v3</id>
+        <bits>239</bits>
+        <field>binary</field>
+        <file>c2tnb239v3.csv</file>
+    </curve>
+       <curve>
+        <id>c2tnb431r1</id>
+        <bits>239</bits>
+        <field>binary</field>
+        <file>c2tnb431r1.csv</file>
+    </curve>
 </curves>

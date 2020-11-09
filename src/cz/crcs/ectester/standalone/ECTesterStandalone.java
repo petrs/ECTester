@@ -84,7 +84,9 @@ public class ECTesterStandalone {
             new IppcpLib(),
             new MatrixsslLib(),
             new NettleLib(),
+            new ECCelerateLib(),
             new LibresslLib()};
+
     private Config cfg;
 
     private Options opts = new Options();
